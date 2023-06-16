@@ -30,9 +30,10 @@ body{
 
 .containerlogo{
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    margin-bottom: 30px; 
 }
-.containerlookfor{
+.containersearch{
     display: flex;
     justify-content: center;
 }
@@ -57,6 +58,7 @@ body{
     user-select: none;
 
 }
+
 .containerinformation{
     display: flex;
     justify-content: center;
@@ -123,4 +125,78 @@ body{
     padding-right: 20px;
     padding-top: 0px;
     padding: 0 20px;
+}
+.barrabuscador{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 584px;
+    min-height: 44px;
+    width: 582px;
+    z-index: 3;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(32, 33, 36);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom: rgb(95, 99, 104);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(95, 99, 104);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(95, 99, 104);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(95, 99, 104);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    color: rgb(189, 193, 198);
+    padding-left: 45px;
+    margin-bottom: 30px;
+}
+.search{
+    width: 32px;
+    height: 32px;
+    background-image: url(seach.svg);   
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.camera {
+    width: 32px;
+    height: 32px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    
+}
+.microphone{
+    width: 32px;
+    height: 32px;
+    background-image: url(microphone.svg);
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 50px;
+    top: 10px;
+}
+.buscador{
+    position: relative;
 }
